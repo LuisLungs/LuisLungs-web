@@ -100,10 +100,15 @@ p { margin: 0; }
     linear-gradient(180deg, rgba(11,11,12,.55) 0%, rgba(11,11,12,.1) 35%, rgba(11,11,12,.85) 78%, var(--bg) 100%),
     linear-gradient(90deg, rgba(11,11,12,.6) 0%, rgba(11,11,12,0) 70%);
 }
-.hero__title {
-  font-family: var(--serif); font-weight: 700;
-  font-size: clamp(44px, 12vw, 104px); line-height: .98; letter-spacing: -.03em;
-  max-width: 11ch;
+.hero__title { font-family: var(--serif); font-weight: 700; }
+.hero__name {
+  display: block;
+  font-size: clamp(68px, 20vw, 176px); line-height: .9; letter-spacing: -.04em;
+  text-shadow: 0 4px 40px rgba(0,0,0,.35);
+}
+.hero__role {
+  display: block; margin-top: 16px; max-width: 18ch;
+  font-size: clamp(28px, 7.4vw, 56px); font-weight: 500; line-height: 1.05; letter-spacing: -.02em;
 }
 .hero__sub { font-size: clamp(18px, 4.6vw, 22px); color: #e3ddd5; margin-top: 18px; max-width: 32ch; }
 @keyframes heroZoom { from { transform: scale(1.08); } to { transform: scale(1); } }
