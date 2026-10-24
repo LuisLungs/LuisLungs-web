@@ -103,9 +103,10 @@ p { margin: 0; }
 .hero__title { font-family: var(--serif); font-weight: 700; }
 .hero__name {
   display: block;
-  font-size: clamp(68px, 20vw, 176px); line-height: .9; letter-spacing: -.04em;
+  font-size: clamp(58px, 17vw, 150px); line-height: .92; letter-spacing: -.04em;
   text-shadow: 0 4px 40px rgba(0,0,0,.35);
 }
+.hero__name > span { display: block; }
 .hero__role {
   display: block; margin-top: 16px; max-width: 18ch;
   font-size: clamp(28px, 7.4vw, 56px); font-weight: 500; line-height: 1.05; letter-spacing: -.02em;
